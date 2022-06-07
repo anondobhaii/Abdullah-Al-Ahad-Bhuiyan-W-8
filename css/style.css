@@ -1,0 +1,125 @@
+@font-face {
+    font-family: ban;
+    src: url("../fonts/LI\ ALINUR\ ABAKAS\ ANSI\ V2.TTF");
+}
+
+@font-face {
+    font-family: ban2;
+    src: url("../fonts/Hind_Siliguri-Regular_GhOgZt6.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url("../images/cursor.png"), auto;
+    font-family: ban2;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 2px 20px #ff832431;
+    position: fixed;
+}
+
+nav img{
+    height: 7vh;
+    margin: auto auto auto 80px;
+}
+
+.main{
+    width: 100%;
+    height: 92vh;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: url("../images/back.JPG"); */
+}
+
+.main > .info{
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 550px;
+}
+
+.main > .info > .info-img > img{
+
+    width: 540px;
+}
+
+.main > .info > .info-text > h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.main > .info-2 {
+    margin-bottom: 20px;
+}
+
+.main > .grid{
+    width: 80%;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.main > .grid > div{
+    background: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.231);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 20px 15px;
+    transition: 0.3s;
+}
+
+.main > .grid > div:hover{
+    box-shadow: 0px 0px 20px #ff83249d;
+}
+
+.main > .grid > div > img{
+    width: 250px;
+    border-radius: 30px;
+}
+
+.main > .grid > div > p:nth-child(2){
+    font-size: 30px;
+    margin-block: 25px;
+    font-weight: bold;
+}
+
+.main > .grid > div > p{
+    font-size: 1rem;
+    line-height: 23px;
+    font-family: ban2;
+}
+
+.main > .grid > div > h4{
+    padding: 8px 20px;
+    background: #FF7D05;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 5px #00000071;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.creator{
+    width: 95%;
+    padding-top: 20px;
+    text-align: right;
+    font-size: 12px;
+}
+
